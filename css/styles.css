@@ -1,0 +1,166 @@
+/*
+ * Start of CSS to be removed on production
+ */
+html, body {
+  /*height: 100%;*/
+  margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 15px 0; }
+
+body {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #666666;
+  background: #eceeee;
+  line-height: 22px; }
+  body .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box; }
+    @media only screen and (min-width: 40.0625em) {
+      body .container {
+        max-width: 960px;
+        padding-left: 10px;
+        padding-right: 10px; } }
+  body .marker {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    background: #b1d;
+    position: absolute; }
+  body:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+  body p {
+    color: #666666;
+    margin: 0 0 20px 0;
+    text-align: justify; }
+  body a {
+    text-decoration: none; }
+  body button {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer; }
+
+.button {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 0.875rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 0 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6875rem 1.5rem 0.625rem;
+  background-color: #86b929;
+  color: #FFFFFF;
+  transition: background-color 200ms ease-out;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle; }
+  .button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 3px;
+    background: #678f21;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out; }
+  .button:hover:before {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1); }
+  .button.secondary {
+    background-color: #eceeee;
+    border-color: #bac1c1;
+    color: #666666; }
+  .button.secondary:hover, .button.secondary:focus {
+    color: #333333; }
+  .button.secondary:before {
+    background-color: #c2c2c2; }
+  .button.error {
+    background: #f96561; }
+  .button.error:before {
+    background-color: #9b5e5c; }
+  .button.warning {
+    background: #f49300;
+    border-color: #c37600;
+    color: #FFFFFF; }
+  .button.warning:before {
+    background-color: #99703b; }
+
+/*
+ * End of CSS to be removed on production
+ */
+/* Drag Base CSS */
+.wrapper,
+#wrapper {
+  height: 41px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden; }
+  .wrapper > ul,
+  #wrapper > ul {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    position: absolute; }
+    .wrapper > ul > li,
+    #wrapper > ul > li {
+      font-size: 14px;
+      padding: 6px 12px;
+      border-bottom: 1px solid #cbcbcb;
+      line-height: 200%;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: moz-none;
+      -ms-user-select: none;
+      user-select: none;
+      display: inline-block;
+      vertical-align: middle;
+      cursor: -webkit-grab; }
+      .wrapper > ul > li.active,
+      #wrapper > ul > li.active {
+        position: relative; }
+        .wrapper > ul > li.active:after,
+        #wrapper > ul > li.active:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          border-bottom: 4px solid #3aa1c1; }
+      .wrapper > ul > li:nth-child(2n+1),
+      #wrapper > ul > li:nth-child(2n+1) {
+        background: #ddd; }
+
+/*# sourceMappingURL=styles.css.map */

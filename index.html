@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta charset="UTF-8">
+
+	<title>What A Drag...</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- custom tooltip library -->
+	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/drag2.js"></script>
+	
+</head>
+<body>
+	
+	<div class="container">
+		<h1>Click And Drag Me...</h1>
+		
+		<div class="slider">
+			<ul>
+				<li>Alice Blue</li>
+				<li>Antique White</li>
+				<li>Aqua</li>
+				<li>Aquamarine</li>
+				<li>Azure</li>
+				<li>Beige</li>
+				<li>Bisque</li>
+				<li>Black</li>
+				<li>Blanched Almond</li>
+				<li>Blue</li>
+				<li>Blue Violet</li>
+				<li>Brown</li>
+				<li>Burlywood</li>
+				<li>Cadet Blue</li>
+				<li>Chartreuse</li>
+				<li>Chocolate</li>
+				<li>Coral</li>
+				<li>Cornflower</li>
+				<li>Cornsilk</li>
+				<li>Crimson</li>
+				<li>Cyan</li>
+				<li>Dark Blue</li>
+				<li>Dark Cyan</li>
+				<li>Dark Goldenrod</li>
+				<li>Dark Gray</li>
+				<li>Dark Green</li>
+				<li>Dark Khaki</li>
+				<li>Dark Magenta</li>
+				<li>Dark Olive Green</li>
+				<li>Dark Orange</li>
+				<li>Dark Orchid</li>
+				<li>Dark Red</li>
+				<li>Dark Salmon</li>
+				<li>Dark Sea Green</li>
+				<li>Dark Slate Blue</li>
+				<li>Dark Slate Gray</li>
+				<li>Dark Turquoise</li>
+				<li>Dark Violet</li>
+			</ul>
+		</div>
+
+		<a href="#" class="prev">Prev</a>
+		<a href="#" class="next">Next</a>
+
+	</div>
+
+	<script type="text/javascript">
+
+		// build modal object
+		var mySlider = new Slider({
+			slideSelector: "slider",
+			prevSelector: 'prev',
+			nextSelector: 'next'
+		});
+
+	</script>
+
+</body>
+</html>
